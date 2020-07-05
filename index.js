@@ -77,7 +77,7 @@ function reset() {
 	}
 }
 
-function chnageColors(color) {
+function changeColors(color) {
 	for (var i = 0; i < squares.length; i++) {
 		squares[i].style.backgroundColor = color;
 		h1.style.backgroundColor = color;
